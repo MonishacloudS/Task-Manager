@@ -72,8 +72,3 @@ Frontend runs at `http://localhost:5173`.
 - `PUT /api/tasks/reorder/all`
 - `DELETE /api/tasks/:id`
 
-## Submission (GitHub)
-
-1. Create a personal GitHub repository.
-2. Push this project to your repository.
-3. Share the GitHub repository link as your submission.
