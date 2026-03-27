@@ -56,6 +56,31 @@ npm run dev
 
 Frontend runs at `http://localhost:5173`.
 
+## Docker Setup (Recommended for Interviewer)
+
+Run the entire stack (frontend + backend + database file persistence) with Docker:
+
+```bash
+docker compose up --build
+```
+
+Then open:
+
+- Frontend: `http://localhost:8080`
+- Backend API: `http://localhost:5000`
+
+To stop:
+
+```bash
+docker compose down
+```
+
+To stop and remove DB volume too:
+
+```bash
+docker compose down -v
+```
+
 ## API Endpoints
 
 ### Auth
@@ -70,5 +95,6 @@ Frontend runs at `http://localhost:5173`.
 - `POST /api/tasks`
 - `PUT /api/tasks/:id`
 - `PUT /api/tasks/reorder/all`
+- `DELETE /api/tasks/completed/all`
 - `DELETE /api/tasks/:id`
 
