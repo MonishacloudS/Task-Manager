@@ -1,0 +1,35 @@
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --text: #1e293b;
+  --muted: #64748b;
+  --border: #dbe3ef;
+  --primary: #4f46e5;
+  --danger: #dc2626;
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0b1220;
+  --surface: #151f33;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --border: #25344f;
+  --primary: #818cf8;
+  --danger: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+input {
+  font: inherit;
+}
